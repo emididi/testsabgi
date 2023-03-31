@@ -1,0 +1,17 @@
+.fonfo{
+    background: transparent;
+    border: 2px solid #90CCBA;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    box-sizing: border-box;
+
+}
+.dising{
+    outline: none;
+}
+.bgmain{
+   background-color: #90CCBA;
+}
+.bgmain1{
+    color: #90CCBA;
+ }

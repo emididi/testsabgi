@@ -1,0 +1,48 @@
+*{
+    font-family: 'Questrial', sans-serif;
+}
+
+/* Menu lateral*/
+sidebar-menu {
+    position: absolute;
+    background-color: #90CCBA;
+    width: 30%;
+    height: 100vh;
+    top:0; left: 0;
+
+}
+
+.cont-menu {
+    max-width: 250px;
+    background-color: #90CCBA;
+    height: 100vh;
+    position: relative;
+}
+
+.cont-menu nav{
+    transform: translateY(15%);
+    font-family: 'Questrial', sans-serif;
+}
+
+.cont-menu nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: #FFFEFB;
+    border-left: 5px solid transparent;
+
+}
+
+/*Perfil*/
+
+
+.cont-perfil{
+    
+
+}
+
+
+
+/*Historial*/
+
+
+/*Solicitudes de busqueda de donantes*/

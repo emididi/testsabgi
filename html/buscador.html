@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador</title>
+
+    <!--links-->
+    <link rel="stylesheet" href="css/buscador_style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<!--menú lateral-->
+    <div class="menu">
+        <div id="sidebar-menu">
+            <div class="cont-menu">
+                <div>
+                    <a href="" class="d-block p-4"><i class="icon ion-ios-home lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Inicio</a>
+                    <a href="perfil_compl.html" class="d-block p-4"><i class="icon ion-md-contact lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Perfil</a>
+                    <a href="" class="d-block p-4"><i class="icon ion-md-text lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Solicitar donador</a>
+                    <a href="" class="d-block p-4"><i class="icon ion-md-list lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Solicitudes de búsqueda de donantes</a>
+                    <a href="" class="d-block p-4"><i class="icon ion-md-water lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Ser donador</a>
+                    <a href="" class="d-block p-4"><i class="icon ion-md-albums lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Ofertas de donación</a>
+                    <a href="" class="salir d-block p-4"><i class="icon ion-md-exit lead"></i>&nbsp;&nbsp;&nbsp;&nbsp;Cerrar Sesión</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+
+<!--Barra del buscador-->
+        <div class="barra_buscar d-flex">
+            <form class= "buscar" action="/buscar" method="get">
+                <i class="icon ion-md-search lead"></i>
+                <input class="form_busc" type="text" id="busqueda" name="q" >
+            </form>
+        </div>
+
+<!--Opciones para buscar-->
+        <div class="hospitales">
+            <div class="hosp">
+                <div class="titulo">Hospitales</div>
+
+
+            </div>
+        </div>
+
+        <div class="tipo_s">
+            <div class="ts">
+                <div class="titulo">Tipo de sangre</div>
+
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+</body>
+</html>
